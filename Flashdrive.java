@@ -6,7 +6,6 @@ public class Flashdrive {
         String manufacturer = "SILICON POWER";
         String model = "Touch T03";
         String color = "silver";
-        int wireLength = 2;
         int price = 149;
         int memory = 16;
         System.out.println("Флешка");
@@ -14,7 +13,6 @@ public class Flashdrive {
         System.out.println("Модель " + model);
         System.out.println("Объем памяти " + memory +" Gb");
         System.out.println("Цвет - " + color);
-        System.out.println("Длина наушников " + wireLength +" метра");
         System.out.println("Стомость " + price +" грн");
     }
 }
