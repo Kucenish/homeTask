@@ -8,9 +8,9 @@ public class Homework3_1 {
     public static void main(String[] args){
         double n = 356.41;
         if (n >= 1000 || n < 100){
-            System.out.println("Пременная n имеет недопустмое значение.");
+            System.out.println("Пременная n имеет недопустимое значение.");
         } else if (n *100 % 1 != 0){
-            System.out.println("Пременная n имеет недопустмое значение.");
+            System.out.println("Пременная n имеет недопустимое значение.");
         } else{
             n=n*100;
             int a, b, c, d, e;
